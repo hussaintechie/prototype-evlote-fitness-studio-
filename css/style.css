@@ -15,7 +15,7 @@ body {
 	height: 100%;
 	font-family: "PT Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	-font-smoothing: antialiased;
 	scroll-behavior: smooth;
 }
 
@@ -118,8 +118,8 @@ Helper CSS
 }
 
 .spad {
-	padding-top: 105px;
-	padding-bottom: 105px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .text-white h1,
@@ -606,9 +606,9 @@ Milestones section
 Trainers section
  ---------------------*/
 
-.trainers-section {
+/* .trainers-section {
 	padding: 121px 0 75px;
-}
+} */
 
 .trainers-section .section-title {
 	margin-bottom: 78px;
@@ -714,12 +714,12 @@ Footer section
  ---------------------*/
 
 .footer-section {
-	padding-top: 106px;
+	padding-top: 5px;
 	padding-bottom: 23px;
 }
 
 .footer-widget {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .footer-widget h4 {
@@ -753,13 +753,13 @@ Footer section
 
 .copyright {
 	font-size: 13px;
-	font-weight: 700;
+	font-weight: 800;
 	color: #fff;
-	padding-top: 35px;
+	padding-top: 5px;
 }
 
 .copyright a {
-	color: #fff;
+	color:green;
 }
 
 .copyright a:hover {
